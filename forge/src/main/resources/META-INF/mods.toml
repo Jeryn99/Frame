@@ -1,0 +1,34 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "frame"
+version = "${version}"
+displayName = "Frame"
+authors = "Jeryn99"
+description = '''
+
+'''
+logoFile = "frame_logo.png"
+
+[[mixins]]
+config = "frame_common.mixins.json"
+[[mixins]]
+config = "frame_fabric.mixins.json"
+
+[[dependencies.frame]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.frame]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+

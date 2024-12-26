@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "dev.jeryn.frame.fabric.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+    "ReloadableResourceManagerMixin"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
